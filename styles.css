@@ -1,0 +1,197 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #8EEE70;
+}
+body > * {
+    font-family: "Montserrat";
+}
+img {
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    padding:0 30px;
+}
+.text {
+    /* display: block; */
+    margin: 0 auto;
+    width: 550px;
+    line-height: 2;
+    font-weight: 500;
+ }
+ .name-date {
+     position: absolute;
+     left: 50px;
+     top: 100px;
+     padding: 30px;
+     background: white;
+     border-style: dotted;
+     border-color: black;
+     z-index: -1;
+ }
+ .nav {
+     position: fixed;
+     background-color: white;
+     width: 100%;
+     opacity: .90;   
+ }
+.nav li a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 500;  
+}
+.nav li a:hover {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+}
+.nav ul {
+    display: none;
+    flex-direction: column;
+    list-style-type: none;
+}
+.nav li {
+    padding: 10px;
+}
+.introduction {
+    padding-top: 120px;
+}
+img {
+    max-width: 100%;
+}
+h1,h3 {
+    text-align: center;
+    color: #7A3434;
+    font-family: 'Rajdhani';
+}
+h3+p {
+    font-style: italic;
+    font-weight: 300;
+    /* display: block; */
+    margin: 0 auto;
+}
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.c-logo {
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    display: flex;
+}
+.chartnstats .chartimages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.persona-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.persona .image-wrapper {
+    padding: 10px;
+}
+.design_decisions .dd-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.design_decisions .dd-images div {
+    padding: 10px;
+    height: auto;
+}
+.next_steps {
+    justify-content: center;
+    width: 450px;
+    height: auto;
+}
+.results-images {
+    display: flex;  
+    flex-direction: column;
+}
+.results-images .image-wrapper {
+    padding: 10px;
+}
+.next_steps .image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.chartnstats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chartnstats img {
+    width: 100%;
+}
+.chartnstats wrapper:nth-child(2) {
+    margin-top: -5px;
+}
+
+@media (min-width: 720px) {
+    .name-date {
+        display: block;
+    }
+    .design_decisions .dd-images {
+        flex-direction: row;
+    }
+    .img-wrapper .hi-login {
+        height: auto;
+        width: 250px;
+    }
+    .results-images {
+        display: flex;
+        flex-direction: row;
+    }
+    .results-images .image {
+        width: 30%;
+    }
+    .persona-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .persona-wrapper .persona {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    body {
+        background: #8EEE70;
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        width: 100%;
+    }
+    .name-date {
+        display: block;
+    }
+    .chartnstats {
+        flex-direction: row;
+    }
+    .chartnstats wrapper:nth-child(2) {
+        margin-top: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+    .next_steps {
+        width: 450px;
+        height: auto;
+    }
+}

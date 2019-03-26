@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="191px" height="217px" viewBox="0 0 191 217" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>crumple logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-16.2%" y="-16.2%" width="132.4%" height="132.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="4" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-628.000000, -47.000000)">
+            <g id="crumple-logo" transform="translate(595.000000, 25.000000)">
+                <g filter="url(#filter-1)">
+                    <path d="M178.325962,152 C181.575962,137 204.575962,138.25 204.825962,152.75 C205.075962,154.25 204.825962,156.25 204.325962,158 C199.325962,177.5 189.325962,192 176.325962,202.25 C163.575962,212.5 147.825962,217.5 129.075962,217.5 C109.825962,217.5 94.0759619,213.75 82.0759619,205.75 C70.0759619,198 60.8259619,186.5 54.5759619,171.75 C48.0759619,156.75 45.0759619,140.75 45.0759619,123.75 C45.0759619,105 48.5759619,88.75 55.8259619,75 C62.8259619,61 73.0759619,50.5 86.0759619,43.25 C99.3259619,36 113.825962,32.5 129.575962,32.5 C147.325962,32.5 162.575962,37 174.575962,46.25 C186.825962,55.25 195.325962,68 200.075962,84.5 C205.575962,103 181.075962,106.5 176.075962,90.75 C171.825962,77.75 167.325962,69.5 159.325962,63.5 C151.325962,57.75 140.575962,82.5 128.575962,82.5 C114.825962,82.5 103.325962,58.5 94.0759619,65 C84.8259619,71.75 80.3259619,78.25 76.5759619,89.5 C72.8259619,100.5 99.3259619,115.25 99.3259619,127 C99.3259619,142.25 74.5759619,152.25 79.0759619,163.75 C83.3259619,175 87.3259619,181 96.8259619,186.75 C106.075962,192.25 119.325962,169 130.325962,169 C143.575962,169 154.325962,191.5 163.575962,184 C172.825962,176.25 175.075962,167 178.325962,152 Z" id="Path" fill="#00DC00"></path>
+                    <text id="Crumple" font-family="Montserrat-BoldItalic, Montserrat" font-size="22" font-style="italic" font-weight="bold" fill="#000000">
+                        <tspan x="105.291" y="135">Crumple</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
