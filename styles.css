@@ -32,28 +32,28 @@ img {
      border-color: black;
      z-index: -1;
  }
- .nav {
+ nav {
      position: fixed;
      background-color: white;
      width: 100%;
      opacity: .90;   
  }
- .nav li a {
+ nav li a {
     color: darkblue;
     text-decoration: none;
     font-weight: 500;  
 }
-.nav li a:hover {
+nav li a:hover {
     color: white;
     background-color: orange;
     padding: 10px;
 }
-.nav ul {
+nav ul {
     display: none;
     flex-direction: column;
     list-style-type: none;
 }
-.nav li {
+nav li {
     padding: 10px;
 }
 /* .nav aside {
@@ -178,7 +178,7 @@ h3+p {
     body {
         background: #8EEE70;
     }
-    .nav ul {
+    nav ul {
         display: flex;
         flex-direction: row;
         list-style-type: none;
