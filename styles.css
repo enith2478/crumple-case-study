@@ -38,7 +38,7 @@ img {
      width: 100%;
      opacity: .90;   
  }
-.nav li a {
+ .nav li a {
     color: darkblue;
     text-decoration: none;
     font-weight: 500;  
@@ -56,6 +56,13 @@ img {
 .nav li {
     padding: 10px;
 }
+/* .nav aside {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    opacity: .90%;
+    width: 20%;
+} */
 .introduction {
     padding-top: 120px;
 }
@@ -137,6 +144,7 @@ h3+p {
     margin-top: -5px;
 }
 
+
 @media (min-width: 720px) {
     .name-date {
         display: block;
@@ -185,6 +193,10 @@ h3+p {
     .chartnstats wrapper:nth-child(2) {
         margin-top: 0;
     }
+    footer {
+        font-weight: 300;
+        font-style: italic;
+    }
 }
 @media (min-width: 1200px) {
     .container {
@@ -193,5 +205,12 @@ h3+p {
     .next_steps {
         width: 450px;
         height: auto;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        font-weight: 300;
+        font-style: italic;
+        border-top: double;
     }
 }
