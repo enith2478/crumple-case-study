@@ -145,6 +145,43 @@ h3+p {
 }
 
 
+/*form starts here*/
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+form .field {
+    width: 30%;
+    padding: 5px;
+} 
+form input::placeholder {
+    font-weight: bold;
+    font-family: 'Courier New';
+}
+form button {
+    padding:15px 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%
+}
+button {
+    font-size: 1.125rem;
+}
+form input {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+form textarea {
+    padding: 15px;
+    width: 85%;
+}
+
+
 @media (min-width: 720px) {
     .name-date {
         display: block;
@@ -171,7 +208,13 @@ h3+p {
     .persona-wrapper .persona {
         width: 50%;
     }
-    
+    footer {
+        display: flex;
+        justify-content: center;
+        font-weight: 300;
+        font-style: italic;
+        border-style: double;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -193,10 +236,6 @@ h3+p {
     .chartnstats wrapper:nth-child(2) {
         margin-top: 0;
     }
-    footer {
-        font-weight: 300;
-        font-style: italic;
-    }
 }
 @media (min-width: 1200px) {
     .container {
@@ -205,12 +244,5 @@ h3+p {
     .next_steps {
         width: 450px;
         height: auto;
-    }
-    footer {
-        display: flex;
-        justify-content: center;
-        font-weight: 300;
-        font-style: italic;
-        border-top: double;
     }
 }
