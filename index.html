@@ -9,10 +9,10 @@
     </head>
 <body>
         <nav class="nav">
-                <div class="hamburger">
+                <div class="hamburger" onclick="toggleNav()">
                         <i class="fas fa-bars"></i>
                 </div>
-                <ul>
+                <ul id="navLinks">
                     <li><a href="#top">Top</a></li>
                     <li><a href="#context">Context & Challenges</a></li>
                     <li><a href="#planning">Planning</a></li>
@@ -20,14 +20,14 @@
                     <li><a href="#decisions">Design Decisions</a></li>
                     <li><a href="#feedback">Lo-Fidelity Feedback</a></li>
                     <li><a href="#summary">Summary</a></li>
-                    <li><a href="#nextsteps">Next Steps</a></li>
                 </ul>
         </nav>
     </div>
     <div class="introduction container">
-     <p class="name-date">Andrew Scott Hager<br/>
+        <p class="name-date">Andrew Scott Hager<br/>
         Dec. 2018 - Feb. 2019<br/>
-    <a href="https://kenzie.academy">Kenzie Academy</a></p>
+            <a href="https://kenzie.academy">Kenzie Academy</a>
+        </p>
     </div>
 
     <section class="crumple-d container">
@@ -39,29 +39,34 @@
             <div class="text"><p>Crumple is the answer to how to make recycling more practical and accessible. The app has the ability to assist users with finding their local recycle drop offs based on their current location. Crumple can help guide users with information on where they can drop off recyclables from plastic, metal, paper, and glass and other recyclables such as appliances. The app also has the ability to connect yourself with people in your local community to where you can compare your contributions to others. Crumple will be working with local grocery stores and gas stations in order to set up recycling stations at these locations.</p> 
             </div>
     </section>
+    <section class="context container">
         <h1 id="context">Context & Challenges</h1>
              <div class="text"><p>How might we change the way that recycling is performed? How might we find ways to recycle efficiently without having to travel far? How might we make it easier and more convenient for people to recycle? These are questions that can be answered through the Crumple App.<br/>
 
             So how exactly do we fix this? Simple. Make recycling much more convenient by placing stations at local convenience stores and gas stations. The app will then guide the user to those locations.</p>
-        </div>
+        </section>
+    </div>
 
+    <section class="planning container">
         <h1 id="planning">Planning</h1>
             
            <div class="text">
                 <p>The largest issue that was presented when trying to create Crumple was figuring out how to balance a rewards feature. Originally there was a plan to create a financial reward system that would better motivate the users who use the app. However, through research and discovery interviews, it was determined that this feature would be a little more difficult to implement as originally thought.  For example, the goal of rewards is it is trying to incentivize  users to recycle, but there are many ways to implement such a system. The feedback that I received in relation to the rewards is that if included, would it positively or neutrally impact that way that users recycle?<br/></p>
-        </div>
-            <div class="chartnstats container">
+            </div>
+
+        <div class="chartnstats container">
                 <wrapper class="chart">
                     <img alt= "chart" src="images/image3-chart.png" />
                 </wrapper>
                 <wrapper class="chart">
                     <img alt="stats" src="images/image3-stats.png"/>
                 </wrapper>
-            </div>
-            <div class="text">
+        </div>
+        <div class="text">
                <p>In some areas, recycling is mandatory, however in other areas like Indianapolis this isn't the case. To fix this issue, the finalized goal was to allow more means of access by going to the grocery store or gas station to drop off your recyclables. For example, recycling rates have gone up in the last 50 years but they could definitely increase with the inclusion of more widespread and easily accessible locations to recycle.
             </p>
         </div>
+    </section>
         <section class="personas container">
             <h1 id="personas">User Personas</h1>
             <div class="persona-wrapper">
@@ -84,12 +89,14 @@
                     </div>
                 </div>
             </div>
-        </section>
+        
                 
             <div class="text">
             <p>I created three user personas based around the  5 discovery interviews that I scheduled about recycling and its benefits. So I combined multiple participants together for some of the user personas. <br/>
             When conducting walkthroughs of Crumple, these were some examples of the feedback that I originally received which I took into account for and decided to implement changes of my original designs.  
             </p>
+
+        </section>
             </div>
     <section class="design_decisions container">
         <h1 style="text-align:center;" id="decisions">Design Decisions</h1>
@@ -171,6 +178,7 @@
                 </p>
             </div>
         </section>
+        
         <section class="next_steps container">
             <h1 id="nextsteps">Next Steps</h1>
             <div class="image-wrapper">
@@ -188,42 +196,7 @@
         <footer>
             <p>This project was designed and created by Andrew Hager. 2018 </p>
         </footer>
-<!--Form Starts Here-->
-        
-            <!-- <h3>Got Any Questions?</h3>
-            <div class="form">
-                <form>
-                    <div class="field">
-                        <div class="input-wrapper">
-                                <input placeholder="First Name" type="text" name="firstname">
-                        </div>
-                    </div>
-        
-                    <div class="field">
-                        <div class="input-wrapper">
-                                <input placeholder="Last Name" type="text" name="lastname">
-                        </div>
-                    </div>
-            
-                    <div class="field">
-                        <div class="input-wrapper">
-                                <input placeholder="you@email.com" type="email" name="email">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="input-wrapper">
-                                <input placeholder="888-333-4444" type="text" name="reply">
-                        </div>
-                    </div>
-                    <div class="text-field">
-                        <textarea placeholder="Type Here" type="text"></textarea>
-                    </div>
-                    <div class="submit-wrapper">
-                        <div class="submit-button">
-                            <button type="submit" type="button">Submit</button>
-                        </div>
-                    </div>
-                </form>
-            </div> -->
+
+        <script src="./global.js"></script>
     </body>
 </html>

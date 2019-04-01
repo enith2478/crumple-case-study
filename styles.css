@@ -4,12 +4,10 @@ body, html {
 }
 body {
     background: #8EEE70;
+    font-size: 1rem;
 }
 body > * {
     font-family: "Montserrat";
-}
-img {
-    width: 100%;
 }
 .container {
     margin: 0 auto;
@@ -18,7 +16,7 @@ img {
 .text {
     /* display: block; */
     margin: 0 auto;
-    width: 550px;
+    max-width: 550px;
     line-height: 2;
     font-weight: 500;
  }
@@ -53,9 +51,17 @@ nav ul {
     flex-direction: column;
     list-style-type: none;
     justify-content: center;
+    text-align: right;
+    padding-right: 30px;
+}
+nav .open {
+    display: flex;
 }
 nav li {
     padding: 10px;
+}
+.name-date {
+    display: none;
 }
 /* .nav aside {
     display: flex;
@@ -68,7 +74,11 @@ nav li {
     padding-top: 120px;
 }
 img {
-    max-width: 100%;
+    width: 100%;
+}
+.image-login img{
+    display: flex;
+    justify-content: center;
 }
 h1,h3 {
     text-align: center;
@@ -129,10 +139,6 @@ h3+p {
 .results-images .image-wrapper {
     padding: 10px;
 }
-.next_steps .image-wrapper {
-    display: flex;
-    justify-content: center;
-}
 .chartnstats{
     display: flex;
     flex-direction: column;
@@ -151,56 +157,8 @@ h3+p {
 .hamburger i {
     height: 100%;
     font-size: 50px;
+    padding-right: 30px;
 }
-
-
-/*form starts here*/
-/* .form {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3px;
-}
-form {
-    max-width: 300px;
-    margin-bottom: 60px;
-}
-form .field {
-    padding: 5px;
-} 
-form input {
-    width: 100%;
-    max-width: 100%;
-    padding: 15px;
-    font-weight: bold;
-    font-size: 1.125rem;
-    justify-content: center;
-}
-form input::placeholder {
-    font-weight: bold;
-    font-family: 'Courier New';
-}
-form button {
-    padding:15px 30px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    width: 100%
-}
-button {
-    font-size: 1.125rem;
-}
-form textarea {
-    padding: 15px;
-    width: 100%;
-    resize: none;
-} */
-/* .submit-wrapper button {
-    width: 100%
-} */
-
-
 @media (min-width: 720px) {
     .name-date {
         display: block;
@@ -234,20 +192,23 @@ form textarea {
         font-style: italic;
         border-style: double;
     }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        width: 100%;
+    }
     .hamburger {
         display: none;
+    }
+    .hi-login {
+        max-width: 250px;
     }
 }
 
 @media (min-width: 1000px) {
     body {
         background: #8EEE70;
-    }
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        width: 100%;
     }
     .name-date {
         display: block;
