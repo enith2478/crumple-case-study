@@ -144,6 +144,14 @@ h3+p {
 .chartnstats wrapper:nth-child(2) {
     margin-top: -5px;
 }
+.hamburger {
+    display: flex;
+    justify-content: flex-end;
+}
+.hamburger i {
+    height: 100%;
+    font-size: 50px;
+}
 
 
 /*form starts here*/
@@ -225,6 +233,9 @@ form textarea {
         font-weight: 300;
         font-style: italic;
         border-style: double;
+    }
+    .hamburger {
+        display: none;
     }
 }
 
