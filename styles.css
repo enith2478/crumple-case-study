@@ -52,6 +52,7 @@ nav ul {
     display: none;
     flex-direction: column;
     list-style-type: none;
+    justify-content: center;
 }
 nav li {
     padding: 10px;
@@ -146,7 +147,7 @@ h3+p {
 
 
 /*form starts here*/
-.form {
+/* .form {
     display: flex;
     justify-content: center;
     margin-bottom: 3px;
@@ -186,7 +187,7 @@ form textarea {
     padding: 15px;
     width: 100%;
     resize: none;
-}
+} */
 /* .submit-wrapper button {
     width: 100%
 } */
