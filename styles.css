@@ -203,6 +203,7 @@ h3+p {
     }
     .hi-login {
         max-width: 250px;
+        margin: 0 auto;
     }
 }
 
