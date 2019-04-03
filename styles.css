@@ -63,13 +63,6 @@ nav li {
 .name-date {
     display: none;
 }
-/* .nav aside {
-    display: flex;
-    justify-content: flex-end;
-    background-color: white;
-    opacity: .90%;
-    width: 20%;
-} */
 .introduction {
     padding-top: 120px;
 }
